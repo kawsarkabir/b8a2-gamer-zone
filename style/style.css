@@ -60,12 +60,11 @@ nav a {
   color: #f61c0d;
 }
 /* banner section start here */
-.banner-section {
+/* .banner-section {
   background-image: url(../images/Group\ 14.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 70vh; */
-}
+} */
 .banner-wrapper {
   display: flex;
   justify-content: space-between;
@@ -83,13 +82,12 @@ nav a {
 }
 .banner-inner-content h1 {
   text-align: center;
-  font-family: Work Sans;
   font-size: 80px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-image: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -102,6 +100,12 @@ nav a {
   font-weight: 500;
   line-height: 25px;
   text-transform: lowercase;
+}
+.banner-list-items .fa-circle-play{
+  color:#f948b2;
+}
+.banner-list-items .fa-download{
+  color: #f948b2;
 }
 .banner-inner-img {
   width: 40%;
@@ -130,3 +134,4 @@ nav a {
   margin-top: 20px;
   margin-left: 20px;
 }
+/* banenr seciton end here */

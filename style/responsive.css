@@ -1,0 +1,56 @@
+/* header section responsive for mobile device */
+@media screen and (max-width: 576px) {
+  .logo {
+    margin-bottom: 20px;
+  }
+  .menu {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .menu li {
+    margin: 20px 0;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .nav-icon ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-icon ul li {
+    margin: 0 8px;
+  }
+  .banner-wrapper {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .banner-inner-img {
+    width: 100%;
+  }
+  .banner-inner-content {
+    margin-top: 50px;
+  }
+}
+/* headear section responsive style for tablet */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav ul {
+    flex-direction: column;
+  }
+  .nav-icon ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu {
+    margin-top: 20px;
+  }
+  .banner-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .banner-inner-img {
+    margin-top: 50px;
+  }
+}
+/* banner section end  */
