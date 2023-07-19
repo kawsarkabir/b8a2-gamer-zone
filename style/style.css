@@ -270,32 +270,78 @@ nav a {
 }
 
 /* game list section here */
-.game-list-section{
+.game-list-section {
   position: relative;
   bottom: 80px;
 }
-.game-list-item{
+.game-list-item {
   display: flex;
   margin-left: 8px;
   align-items: center;
 }
-.game-list-item:hover{
+.game-list-item:hover {
   border: 1px solid #f948b2;
   border-radius: 50px;
-
 }
-.game-list-item p{
+.game-list-item p {
   margin-left: 20px;
 }
-.game-list-wrapper{
+.game-list-wrapper {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 10px;
   justify-items: center;
 }
-.game-list-left{
+.game-list-left {
   position: relative;
   left: 180px;
   top: 50px;
+}
+/* footer section start */
+.footer-section {
+  background-color: #0b0223;
+  padding: 100px 0;
+  text-align: center;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-wrapper h1 {
+  color: #fff;
+}
+.footer-wrapper ul {
+  color: #fff;
+  margin-left: 20px;
+  list-style: none;
+  margin: 20px 0;
+}
+.footer-ul{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.social-icon{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.term-condition{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.social-icon li{
+  font-size: 30px;
+}
+.footer-wrapper ul li{
+  margin-left: 30px;
+}
+.social-icos i{
+  font-size: 30px;
+}
+.footer-wrapper p{
+  color: #fff;
+  margin-top: 20px;
 }

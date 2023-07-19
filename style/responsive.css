@@ -212,3 +212,25 @@
     top: 0;
   }
 }
+/* footer section responsive style for mobile device */
+@media screen and (max-width:576px) {
+  .footer-ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-wrapper ul {
+    margin-left: -23px;
+  }
+  .footer-wrapper .social-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .term-condition{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
