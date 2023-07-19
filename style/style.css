@@ -136,6 +136,9 @@ nav a {
 }
 /* banenr seciton end here */
 /* gammer section start here */
+.gamer-seciton{
+  margin: 100px 0;
+}
 .gamer-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -145,6 +148,9 @@ nav a {
 }
 .gammer-inner-img img {
   max-width: 100%;
+}
+.grammer-inner-content {
+  padding: 20px;
 }
 .grammer-inner-content h1 {
   text-align: right;
@@ -167,3 +173,47 @@ nav a {
   font-weight: 500;
 }
 /* gammer section end */
+/* online game section start here */
+.online-game-section{
+  margin: 50px 0;
+  padding: 0 20px;
+}
+.online-inner-title{
+  text-align: center;
+}
+.online-inner-title h1{
+  font-size: 35px;
+}
+.online-inner-title span{
+  text-align: right;
+  font-family: Work Sans;
+  font-size: px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.online-inner-title p{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.online-game-section{
+  margin-top: 50px;
+}
+.online-inner-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+.online-inner-item img{
+  max-width: 100%;
+}
+.online-card-item p{
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* oline game section end here */

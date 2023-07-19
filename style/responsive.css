@@ -98,3 +98,21 @@
     margin-top: 50px;
   }
 }
+
+/* online gamer section responsive style here */
+@media screen and (max-width:576px) {
+  .online-inner-card{
+    grid-template-columns:1fr;
+    text-align: center;
+    gap: 50px;
+  }
+}
+
+/* medium device online gamer section responsove here */
+@media screen and (min-width:576px) and (max-width:960px) {
+  .online-inner-card{
+    grid-template-columns:repeat(2, 1fr);
+    text-align: center;
+    gap: 50px;
+  }
+}
