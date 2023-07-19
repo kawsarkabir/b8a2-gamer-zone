@@ -60,11 +60,6 @@ nav a {
   color: #f61c0d;
 }
 /* banner section start here */
-/* .banner-section {
-  background-image: url(../images/Group\ 14.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 .banner-wrapper {
   display: flex;
   justify-content: space-between;
@@ -137,7 +132,11 @@ nav a {
 /* banenr seciton end here */
 /* gammer section start here */
 .gamer-seciton {
-  margin: 100px 0;
+  background-image: url('../images/Group 14.png') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
 }
 .gamer-wrapper {
   display: grid;
@@ -210,6 +209,7 @@ nav a {
 }
 .online-inner-item img {
   max-width: 100%;
+   
 }
 .online-card-item p {
   font-size: 15px;
@@ -299,7 +299,7 @@ nav a {
   color: #f948b2;
   font-size: 13px;
   font-weight: 500;
-  width: 40%;
+  width: 45%;
   display: inline-block;
 }
 .career-list-left{
