@@ -217,14 +217,11 @@ nav a {
 }
 /* oline game section end here */
 /* play instantly section start here */
-.play-instantly-section {
-  margin: 50px 0;
-  padding: 30px;
-}
+ 
 .play-instantly-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   gap: 50px;
   padding: 20px;
@@ -268,6 +265,58 @@ nav a {
   right: 220px;
   border-radius: 8px;
 }
+/* career section start */
+.careers-section{
+  background-color: #f948b2;
+  color: #fff;
+}
+.careers-wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: -80px;
+}
+.careers-inner-content h1{
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.careers-inner-img{
+  width:  100vw;
+}
+.careers-inner-img img{
+  width: 112%;
+}
+.career-list-item{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.career-list-item a{
+  text-decoration: none;
+  padding: 18px 23px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 30px;
+  color: #f948b2;
+  font-size: 13px;
+  font-weight: 500;
+  width: 40%;
+  display: inline-block;
+}
+.career-list-left{
+  margin-top: 50px;
+  list-style: none;
+}
+.career-list-left li{
+  margin:8px 0;
+}
+.career-list-right{
+  margin-top: 50px;
+  list-style: none;
+}
+.career-list-right li{
+  margin:8px 0;
+}
+/* career section end */
 
 /* game list section here */
 .game-list-section {
@@ -278,6 +327,7 @@ nav a {
   display: flex;
   margin-left: 8px;
   align-items: center;
+  border: 1px solid #fff;
 }
 .game-list-item:hover {
   border: 1px solid #f948b2;
@@ -292,6 +342,7 @@ nav a {
   grid-template-rows: repeat(4, 1fr);
   gap: 10px;
   justify-items: center;
+  margin-top: 200px;
 }
 .game-list-left {
   position: relative;
@@ -303,6 +354,7 @@ nav a {
   background-color: #0b0223;
   padding: 100px 0;
   text-align: center;
+  margin-top: -90px;
 }
 .footer-wrapper {
   display: flex;
