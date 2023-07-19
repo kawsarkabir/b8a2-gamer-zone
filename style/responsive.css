@@ -107,6 +107,12 @@
   .online-card-item img{
     width: 100%;
   }
+  .height-overly-2{
+    height: 88%;
+  }
+  .height-overlay{
+    height: 92%;
+  }
 }
 
 /* medium device online gamer section responsove here */
