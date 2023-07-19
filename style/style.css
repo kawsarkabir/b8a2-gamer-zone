@@ -101,10 +101,10 @@ nav a {
   line-height: 25px;
   text-transform: lowercase;
 }
-.banner-list-items .fa-circle-play{
-  color:#f948b2;
+.banner-list-items .fa-circle-play {
+  color: #f948b2;
 }
-.banner-list-items .fa-download{
+.banner-list-items .fa-download {
   color: #f948b2;
 }
 .banner-inner-img {
@@ -135,3 +135,35 @@ nav a {
   margin-left: 20px;
 }
 /* banenr seciton end here */
+/* gammer section start here */
+.gamer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  text-align: right;
+}
+.gammer-inner-img img {
+  max-width: 100%;
+}
+.grammer-inner-content h1 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grammer-inner-content p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.grammer-inner-content blockquote {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+/* gammer section end */
