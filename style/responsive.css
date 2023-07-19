@@ -97,12 +97,15 @@
   }
 }
 
-/* online gamer section responsive style here */
+/* online gamer section responsive style here mobile device*/
 @media screen and (max-width: 576px) {
   .online-inner-card {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 50px;
+  }
+  .online-card-item img{
+    width: 100%;
   }
 }
 
@@ -221,12 +224,8 @@
   }
 }
 
-/* play instantly mobile device responsive style here */
+/* game list mobile device responsive style here */
 @media screen and (max-width: 576px) {
-  .play-instantly-section {
-    margin: 0;
-    padding: 0;
-  }
   .game-list-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -249,9 +248,15 @@
 
 /* table responsive style here game list section */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  .game-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 60px;
+  }
   .game-list-left {
     position: relative;
-    left: 50px;
+    left: 0;
     top: 0;
   }
 }
