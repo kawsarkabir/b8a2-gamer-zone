@@ -116,3 +116,90 @@
     gap: 50px;
   }
 }
+
+/* play instantly section mobile responsive device */
+@media screen and (max-width:576px) {
+  .play-instantly-inner{
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
+  .play-instantly-img{
+    width: 90%;
+  }
+  .play-instantly-img img{
+    width: 100%;
+  }
+  .play-instantly-img-badge{
+    width: 200px;
+    margin-left:150px;
+  }
+  .play-instantly-img-badge img{
+    max-width: 100%;
+    border: 5px solid red;
+    position: relative;
+    bottom: 135px;
+    right: 180px;
+  }
+  .play-instantly-content{
+    width: 100%;
+    text-align: center;
+  }
+  .play-instantly-content h1{
+    font-size: 3rem;
+  }
+}
+/* mediun device responsive play instantly here */
+@media screen and (min-width:576px) and (max-width:960px) {
+  .play-instantly-inner{
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
+  .play-instantly-img{
+    width: 90%;
+  }
+  .play-instantly-img img{
+    width: 100%;
+  }
+  .play-instantly-img-badge{
+    width: 200px;
+    margin-left:150px;
+  }
+  .play-instantly-img-badge img{
+    max-width: 100%;
+    border: 5px solid red;
+    position: relative;
+    bottom: 135px;
+    right: 180px;
+  }
+  .play-instantly-content{
+    width: 100%;
+    text-align: center;
+  }
+  .play-instantly-content h1{
+    font-size: 4rem;
+  }
+}
+/* mobile device responsive style here */
+@media screen and (max-width:576px) {
+  .play-instantly-section {
+    margin: 0;
+    padding: 0;
+  }
+  .game-list-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .game-list-left{
+    position: relative;
+    left:0;
+    top: 0;
+  }
+  .game-list-item p{
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .game-list-item img{
+    width: 50px;
+  }
+}
