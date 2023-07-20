@@ -227,13 +227,14 @@ nav a {
   color: #f948b2;
   font-size: 2.5rem;
   font-weight: 500;
+  border: 4px solid #fff;
 }
 .overlay i{
   color: #fff;
 }
 .overlay:hover{
   opacity: 1;
-  border: 3px solid red;
+  border: 4px solid #f948b2;
 }
 .online-inner-item img {
   max-width: 100%;
@@ -318,7 +319,7 @@ nav a {
 }
 .career-list-item a{
   text-decoration: none;
-  padding: 18px 23px;
+  padding: 18px 33px;
   text-transform: uppercase;
   background-color: #fff;
   border-radius: 30px;
