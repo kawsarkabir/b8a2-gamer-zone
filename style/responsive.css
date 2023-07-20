@@ -104,13 +104,13 @@
     text-align: center;
     gap: 50px;
   }
-  .online-card-item img{
+  .online-card-item img {
     width: 100%;
   }
-  .height-overly-2{
+  .height-overly-2 {
     height: 88%;
   }
-  .height-overlay{
+  .height-overlay {
     height: 92%;
   }
 }
@@ -234,9 +234,10 @@
 @media screen and (max-width: 576px) {
   .game-list-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     margin-bottom: 60px;
+    align-items: center;
   }
   .game-list-left {
     position: relative;
